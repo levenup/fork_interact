@@ -4,10 +4,13 @@ version: 2.2.0
 repository: https://github.com/frencojobs/interact
 
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  dart_console: ^1.1.2
+  dart_console:
+    git:
+      url: https://github.com/levenup/fork_dart_console.git
+      ref: main
   meta: ^1.8.0
   tint: ^2.0.0
 
